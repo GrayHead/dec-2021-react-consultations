@@ -13,12 +13,11 @@
 // export {getUser, getUsers}
 import axios from 'axios';
 
+
 let axiosInstance = axios.create({
     baseURL: 'https://jsonplaceholder.typicode.com/users',
     headers: {}
 });
-
-let x = {name: 'asdhafsdhfg'}
 
 // const getUsers = () => {
 //     return axiosInstance.get('').then(value => value.data);

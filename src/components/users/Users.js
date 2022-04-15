@@ -8,9 +8,9 @@ export function Users({choseUserFn}) {
     let [users, setUsers] = useState([]);
     useEffect(() => {
         getUsers().then(value => setUsers(value));
+    }, []);
 
 
-    }, [])
     return <div>
         {
             users
